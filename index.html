@@ -7,6 +7,11 @@
 <meta name="description" content="Independent scientific consultant in Switzerland: nanoparticle functionalization, multi-scale imaging (cryo-EM, X-ray, AFM, light), structural biology, analytical chemistry and Python/R data pipelines. Chinese–European technical liaison.">
 <meta property="og:title" content="Dr. Iman Rostami — scientific consulting">
 <meta property="og:description" content="Nanoparticle functionalization, multi-scale imaging, structural biology and data pipelines. Switzerland, with China–Europe technical liaison.">
+<meta property="og:url" content="https://imanr64.github.io/">
+<link rel="canonical" href="https://imanr64.github.io/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Dr. Iman Rostami — scientific consulting","url":"https://imanr64.github.io/","email":"imanrostami64@gmail.com","areaServed":["CH","EU"],"knowsLanguage":["en","zh","fa"],"description":"Scientific due diligence, cryo-EM and imaging, iPSC neurodegeneration models, nanoparticle design and analysis pipelines for biotech teams and investors.","founder":{"@type":"Person","name":"Iman Rostami","honorificPrefix":"Dr.","sameAs":["https://orcid.org/0000-0002-1344-0748","https://www.linkedin.com/in/iman-rostami-57822b81/","https://scholar.google.com/citations?hl=en&user=A0uTlesAAAAJ","https://github.com/ImanR64"]}}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -77,6 +82,10 @@
   .service li{padding-left:18px;position:relative;font-size:.97rem}
   .service li::before{content:"▸";position:absolute;left:0;color:var(--accent)}
   .service .fit{font-size:.9rem;color:var(--ink);background:var(--accent-pale);display:inline-block;padding:4px 10px;border-radius:4px;margin-top:10px}
+  .service .price{display:block;font-size:.95rem;font-weight:600;color:var(--navy);margin-top:10px}
+  .case{display:grid;grid-template-columns:1fr 2fr;gap:32px}
+  .case p{color:var(--muted);max-width:62ch;margin-bottom:.8rem}
+  @media (max-width:760px){.case{grid-template-columns:1fr;gap:12px}}
   @media (max-width:760px){.service{grid-template-columns:1fr;gap:12px}}
 
   /* Process */
@@ -124,6 +133,7 @@
     <span class="brand">Dr. Iman Rostami</span>
     <nav aria-label="Main">
       <a href="#services">Services</a>
+      <a href="#case">Example</a>
       <a href="#process">How it works</a>
       <a href="#about">About</a>
       <a href="#publications">Publications</a>
@@ -136,7 +146,7 @@
   <div class="wrap">
     <h1>Scientific consulting from the ångström to the tissue.</h1>
     <p>I help biotech and nanomedicine teams design, image and analyse what they are building: nanoparticle functionalization for organelle targeting, multi-scale microscopy, structural biology, analytical chemistry, and the Python/R pipelines that turn the data into decisions. Based in Switzerland, with working ties to Chinese research and CRO partners.</p>
-    <a class="btn" href="#contact">Book a first call</a>
+    <a class="btn" href="#contact">Book a free 30-minute call</a>
     <a class="btn ghost" href="#publications">See publications</a>
 
     <div class="scale" aria-label="Length scales covered">
@@ -155,7 +165,21 @@
 <section id="services">
   <div class="wrap">
     <h2>What I can do for you</h2>
-    <p class="lede" style="margin-bottom:2rem">Four services, each scoped to a fixed deliverable so you know what you get before we start.</p>
+    <p class="lede" style="margin-bottom:2rem">Five services, each scoped to a fixed deliverable and price so you know what you get before we start.</p>
+
+    <div class="service">
+      <div><h3>Scientific due diligence for investors and biotech teams</h3></div>
+      <div>
+        <p>An independent scientist's view on whether a platform, target or dataset holds up, before you invest, partner or build on it. Strongest in neurodegeneration (ALS, Huntington's), iPSC disease models, structural biology and nanomedicine.</p>
+        <ul>
+          <li>Written assessment of the scientific approach, key risks and open questions</li>
+          <li>Review of data packages, publications and patents behind a programme</li>
+          <li>Expert calls with your investment or business-development team</li>
+        </ul>
+        <span class="fit">Good fit: VC and family-office investors, business development, consultancies</span>
+        <span class="price">Expert call from CHF 250 · written brief from CHF 2,500</span>
+      </div>
+    </div>
 
     <div class="service">
       <div><h3>Nanoparticle design and organelle targeting</h3></div>
@@ -167,6 +191,7 @@
           <li>Analytical QC plan: chromatography, spectroscopy, size and zeta</li>
         </ul>
         <span class="fit">Good fit: nanomedicine startups, drug-delivery groups, CROs</span>
+        <span class="price">Design review from CHF 1,500</span>
       </div>
     </div>
 
@@ -181,6 +206,7 @@
           <li>Protein expression and purification for structural work</li>
         </ul>
         <span class="fit">Good fit: labs without in-house EM or synchrotron experience</span>
+        <span class="price">Data processing from CHF 1,500 per dataset</span>
       </div>
     </div>
 
@@ -195,6 +221,7 @@
           <li>Literature and prior-art reviews, delivered in days</li>
         </ul>
         <span class="fit">Good fit: teams drowning in microscopy data or papers</span>
+        <span class="price">Custom analysis tool from CHF 3,000 · figures from CHF 800</span>
       </div>
     </div>
 
@@ -208,7 +235,18 @@
           <li>Partner search and first-contact support</li>
         </ul>
         <span class="fit">Good fit: Swiss and EU biotechs sourcing or partnering in China</span>
+        <span class="price">From CHF 150 per hour</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="case">
+  <div class="wrap case">
+    <div><h2>Example: RiboSort</h2></div>
+    <div>
+      <p>Counting ribosomal subunits by eye in hundreds of negative-stain EM micrographs is slow and hard to reproduce. I built RiboSort, a desktop tool on the napari platform. It detects particles, sorts them into classes with adjustable size and distance rules, learns from a few hand-labelled micrographs, and exports a counts table for every dataset.</p>
+      <p>The same approach works for other particle types and imaging data. Your team gets a tool it owns and can rerun, not a one-off result.</p>
     </div>
   </div>
 </section>
@@ -272,7 +310,7 @@
   <div class="wrap">
     <h2>Tell me what you are working on</h2>
     <p>Send a few lines about the problem and the timeline. I reply within two working days with an honest answer on whether I am the right person.</p>
-    <a class="btn" href="mailto:imanrostami64@gmail.com">Email me</a>
+    <a class="btn" href="mailto:imanrostami64@gmail.com">Request a free 30-minute call</a>
     <p class="links" style="margin-top:2rem">
       <a href="https://www.linkedin.com/in/iman-rostami-57822b81/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://orcid.org/0000-0002-1344-0748" target="_blank" rel="noopener">ORCID</a>
